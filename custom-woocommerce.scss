@@ -1,0 +1,70 @@
+$color-main: #01a0af; 
+$color-main-dark: #026f79;
+$color-alt: #eb6353; 
+$color-dark: #323232; 
+
+.woocommerce-message, .woocommerce-info, .woocommerce-error {
+  &::before {
+    padding-top: 0 !important;
+  }
+}
+
+.woocommerce h1.page-title, .woocommerce .woocommerce-result-count {
+  display: none; 
+}
+
+.woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce #respond input#submit.alt, .woocommerce #content input.button.alt, .woocommerce-page a.button.alt, .woocommerce-page button.button.alt, .woocommerce-page input.button.alt, .woocommerce-page #respond input#submit.alt, .woocommerce-page #content input.button.alt {
+  display: inline-block !important;
+  background: $color-main !important; 
+  color: #fff !important;
+  text-align: center !important; 
+  padding: 8px 14px 5px 14px !important; 
+  font-family: "Aqua", sans-serif !important; 
+  font-size: 14px !important;
+  text-transform: uppercase !important; 
+  -webkit-border-radius: 3px !important;
+  -moz-border-radius: 3px !important;
+  -ms-border-radius: 3px !important;
+  -o-border-radius: 3px !important;
+  border-radius: 3px !important;
+  border: 0 !important;
+  -webkit-appearance: none !important; 
+  font-weight: normal !important;
+  box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  text-shadow: none !important; 
+  &:hover {
+    background: $color-main-dark !important; 
+    text-decoration: none !important; 
+    color: #fff !important; 
+  }
+}
+
+.woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit, .woocommerce #content input.button, .woocommerce-page a.button, .woocommerce-page button.button, .woocommerce-page input.button, .woocommerce-page #respond input#submit, .woocommerce-page #content input.button {
+  display: inline-block !important;
+  background: #868686 !important; 
+  color: #fff !important;
+  text-align: center !important; 
+  padding: 8px 14px 5px 14px !important; 
+  font-family: "Aqua", sans-serif !important; 
+  font-size: 14px !important;
+  text-transform: uppercase !important; 
+  -webkit-border-radius: 3px !important;
+  -moz-border-radius: 3px !important;
+  -ms-border-radius: 3px !important;
+  -o-border-radius: 3px !important;
+  border-radius: 3px !important;
+  border: 0 !important;
+  -webkit-appearance: none !important;
+  font-weight: normal !important;
+  box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  text-shadow: none !important;  
+  &:hover {
+    background: #6B6B6B !important; 
+    text-decoration: none !important; 
+    color: #fff !important; 
+  }
+}

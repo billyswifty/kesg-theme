@@ -1,0 +1,129 @@
+/*
+  Theme Name: Knight Eady Updated
+  Theme URI: http://www.billyswifty.com;
+  Description: Custom Theme for Knight Eady Sports Group
+  Version: 1.3
+  Author: Billy Swift
+  Author URI: http://www.billyswifty.com
+  Tags: HTML5, CSS3, Sports
+
+*/
+
+/* show on production */
+
+@import "customstyle.css"; 
+@import "custom-woocommerce.css"; 
+
+#our-team-slider-wrapper .slide .social-icons a {
+  transition: bottom 400ms ease;
+  -webkit-transition: bottom 400ms ease;
+  -moz-transition: bottom 400ms ease;
+  -o-transition: bottom 400ms ease;
+}
+
+.full-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.what-we-do .section .service-image .overlay {
+  transition: opacity 400ms ease;
+  -webkit-transition: opacity 400ms ease;
+  -moz-transition: opacity 400ms ease;
+  -o-transition: opacity 400ms ease;
+}
+
+.btn {
+  transition: background 400ms ease;
+  -webkit-transition: background 400ms ease;
+  -moz-transition: background 400ms ease;
+  -o-transition: background 400ms ease;
+}
+
+.header .bottom nav ul li a {
+  transition: background 400ms ease, color 400ms ease;
+  -webkit-transition: background 400ms ease, color 400ms ease;
+  -moz-transition: background 400ms ease, color 400ms ease;
+  -o-transition: background 400ms ease, color 400ms ease;
+}
+
+.puzzle-wrapper .piece {
+  transition: background-position 500ms ease;
+  -webkit-transition: background-position 500ms ease;
+  -moz-transition: background-position 500ms ease;
+  -o-transition: background-position 500ms ease;
+}
+
+#fullscreen-overlay .container {
+  transition: top 700ms ease;
+  -webkit-transition: top 700ms ease;
+  -moz-transition: top 700ms ease;
+  -o-transition: top 700ms ease;
+}
+
+.link-box a {
+  transition: background-color 500ms ease;
+  -webkit-transition: background-color 500ms ease;
+  -moz-transition: background-color 500ms ease;
+  -o-transition: background-color 500ms ease;
+}
+
+.grid-row {
+  width: 100%;
+  clear: both;
+}
+
+.grid-row .unit1of3 {
+    width: 33.33333333333%;
+    float: left;
+}
+
+@media all and (max-width: 700px) {
+  .grid-row .unit1of3 {
+    width: 100%;
+      float: none;
+      margin-bottom: 10px;
+  }
+  .grid-row .unit1of3:last-of-type {
+    margin-bottom: 0;
+  } 
+}
+
+.instagram-homepage {
+  height: 300px;
+}
+.instagram-homepage h3 {
+  font-family: "Aqua";
+  text-transform: uppercase;
+  color: #01a0af;
+  font-size: 18px;
+  margin: 0;
+  margin-bottom: 12px;
+  margin-left: 23%;
+}
+@media all and (max-width: 762px) {
+ .instagram-homepage h3 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.instagram-homepage .pllexislider.overlay {
+  width: 260px;
+  margin: 0 auto;
+}
+.instagram-homepage .pllexslider.overlay li {
+  width: 260px;
+}
+.instagram-homepage .pllexslider.overlay li img {
+  width: 260px;
+  height: 260px;
+}
+
+img.alignnone, img.aligncenter, img.alignleft, img.alignright {
+  max-width: 100%;
+  height: auto;
+}
