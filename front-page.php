@@ -39,7 +39,7 @@
     <p><span class="highlight">Knight Eady</span> commits to providing platforms for 
       <span class="big">student-athletes</span>, <span class="big">competitors</span>, 
       and <span class="big">sports enthusiasts</span> to have unforgettable and unique 
-      experiences through athletic competition. We believe in motivating and inspiring individuals 
+      experiences through athletic competition. We believe in motivating and <span class="big">inspiring</span> individuals 
       to reach <span class="highlight">beyond their potential</span> and develop an unparalleled loyalty and passion 
       for their sport. We are able to do this by delivering <span class="big">quality</span>, 
       <span class="big">consistent</span>, <span class="big">cost efficient</span> and <span class="big">creative services</span>
