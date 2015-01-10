@@ -22,7 +22,7 @@
   </div>
   <div class="slide" id="slide2">
     <a href="http://www.elevatethestage.com/" target="_blank" class="full-link"></a>
-    <h2 class="title" style="display:none;">Elevate</h2>
+    <h2 class="title" style="display:none;">Elevate the Stage</h2>
     <!-- <div class="article left" style="padding-top:90px;">
       <h2 class="title" style="display:none;"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/event_consulting.png"><span>Sponsorship Sales and Activation</span></h2>
       <h2 class="article-title"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/event_consulting.png">Sponsorship <br />Sales and Activation</h2>
