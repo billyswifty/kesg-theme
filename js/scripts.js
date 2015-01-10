@@ -19,7 +19,7 @@
       $("#home-slider").liquidSlider({
         slideEaseFunction: "easeInOutQuad", 
         autoSlide: true,
-        autoSlideInterval: 7000,
+        autoSlideInterval: 6000,
         mobileNavigation: false,
         hoverArrows: false,
         autoHeight: false,
