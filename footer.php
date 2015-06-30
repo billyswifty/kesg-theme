@@ -50,6 +50,8 @@
       ga('create', 'UA-41554116-5', 'auto');
       ga('send', 'pageview');
 
+      jQuery(".menu-item-831, .menu-item-825").children("a").click(function(event) { event.preventDefault(); } );
+
     </script>
 
 	</body>

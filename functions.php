@@ -142,11 +142,11 @@ function html5blank_header_scripts()
         wp_register_script('jquery', get_template_directory_uri() . '/js/lib/jquery.min.js', array(), '4.3.0'); // Conditionizr
         wp_enqueue_script('jquery'); // Enqueue it!
 
-    	wp_register_script('conditionizr', get_template_directory_uri() . '/js/lib/conditionizr-4.3.0.min.js', array(), '4.3.0'); // Conditionizr
-        wp_enqueue_script('conditionizr'); // Enqueue it!
+  //  	wp_register_script('conditionizr', get_template_directory_uri() . '/js/lib/conditionizr-4.3.0.min.js', array(), '4.3.0'); // Conditionizr
+   //     wp_enqueue_script('conditionizr'); // Enqueue it!
 
-        wp_register_script('modernizr', get_template_directory_uri() . '/js/lib/modernizr-2.7.1.min.js', array(), '2.7.1'); // Modernizr
-        wp_enqueue_script('modernizr'); // Enqueue it!
+   //     wp_register_script('modernizr', get_template_directory_uri() . '/js/lib/modernizr-2.7.1.min.js', array(), '2.7.1'); // Modernizr
+   //     wp_enqueue_script('modernizr'); // Enqueue it!
 
         wp_register_script('easing', get_template_directory_uri() . '/js/easing.js', array('jquery'), '1.0.0'); // Custom scripts
         wp_enqueue_script('easing'); // Enqueue it!
@@ -157,8 +157,8 @@ function html5blank_header_scripts()
         wp_register_script('sidr', get_template_directory_uri() . '/js/sidr.js', array('jquery'), '1.0.0'); // Custom scripts
         wp_enqueue_script('sidr'); // Enqueue it!
 
-        wp_register_script('tinysort', get_template_directory_uri() . '/js/tinysort.js', array('jquery'), '1.0.0'); // Custom scripts
-        wp_enqueue_script('tinysort'); // Enqueue it!
+  //      wp_register_script('tinysort', get_template_directory_uri() . '/js/tinysort.js', array('jquery'), '1.0.0'); // Custom scripts
+  //      wp_enqueue_script('tinysort'); // Enqueue it!
 
         wp_register_script('liquid-slider', get_template_directory_uri() . '/js/liquid-slider.js', array('jquery'), '1.0.0'); // Custom scripts
         wp_enqueue_script('liquid-slider'); // Enqueue it!

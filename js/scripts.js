@@ -8,7 +8,7 @@
 
 
 
-      jQuery(".staff-member.slide").tsort({attr: "data-sort"}); 
+   //   $(".staff-member.slide").tsort({attr: "data-sort"}); 
 
 
       $('#show-menu').sidr({ side: 'right' });
@@ -25,7 +25,7 @@
         autoHeight: false,
         dynamicTabsPosition: "bottom",
         dynamicTabsAlign: "center"
-      }); 
+      });
 
       $("#our-team-slider").liquidSlider({
         slideEaseFunction: "easeInOutQuad", 

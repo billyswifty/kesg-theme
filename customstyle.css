@@ -596,7 +596,11 @@ img.alignright {
     width: 100%; } }
     .blog-index-post-wrapper .blog-index-text .blog-title {
       margin: 0 0 5px 0;
+      padding-right: 180px;
       color: #01a0af; }
+      @media all and (max-width: 762px) {
+        .blog-index-post-wrapper .blog-index-text .blog-title {
+      padding-right: 0; } }
     .blog-index-post-wrapper .blog-index-text .date {
       margin: 0;
       font-size: 15px; }
@@ -681,7 +685,7 @@ img.alignright {
       padding: 0;
       height: 100%; }
     #home-slider-wrapper .liquid-slider .slide {
-      background-size: contain;
+      background-size: cover;
       background-position: center center;
       background-repeat: no-repeat;
       padding: 0;
@@ -721,14 +725,19 @@ img.alignright {
             height: 40px;
             margin: 0 auto 15px auto; }
       #home-slider-wrapper .liquid-slider .slide#slide1 {
-        background-image: url("/wp-content/uploads/2015/01/border-slider.jpg");
+        background-image: url("/wp-content/uploads/2015/03/slide1.jpg");
         background-color: white; }
       #home-slider-wrapper .liquid-slider .slide#slide2 {
-        background-image: url("/wp-content/uploads/2015/01/elevate-slider.jpg");
+        background-image: url("/wp-content/uploads/2015/03/slide2.jpg");
         background-color: #394a8f; }
       #home-slider-wrapper .liquid-slider .slide#slide3 {
         background-color: black;
-        background-image: url("/wp-content/uploads/2015/01/kings-slider.jpg"); }
+        background-image: url("/wp-content/uploads/2015/03/slide3.jpg"); }
+
+        #our-team-slider-wrapper {
+  max-width: none !important;
+
+}
 
     #our-team-slider-wrapper .ls-nav #our-team-slider-nav-ul {
       width: 100% !important;

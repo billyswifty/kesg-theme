@@ -2,7 +2,7 @@
   Theme Name: Knight Eady
   Theme URI: http://www.billyswifty.com;
   Description: Custom Theme for Knight Eady Sports Group
-  Version: 1.9
+  Version: 2.5
   Author: Billy Swift
   Author URI: http://www.billyswifty.com
   GitHub Theme URI: https://github.com/billyswifty/kesg-theme
@@ -30,7 +30,9 @@
   left: 0;
   top: 0;
 }
-
+.mission-banner {
+  clear: both;
+}
 .what-we-do .section .service-image .overlay {
   transition: opacity 400ms ease;
   -webkit-transition: opacity 400ms ease;
@@ -94,9 +96,6 @@
   } 
 }
 
-.instagram-homepage {
-  height: 300px;
-}
 .instagram-homepage h3 {
   font-family: "Aqua";
   text-transform: uppercase;
@@ -104,7 +103,7 @@
   font-size: 18px;
   margin: 0;
   margin-bottom: 12px;
-  margin-left: 23%;
+/*  margin-left: 23%;*/
 }
 @media all and (max-width: 762px) {
  .instagram-homepage h3 {
@@ -112,19 +111,20 @@
     margin-right: auto;
   }
 }
-.instagram-homepage .pllexislider.overlay {
-  width: 260px;
-  margin: 0 auto;
-}
-.instagram-homepage .pllexslider.overlay li {
-  width: 260px;
-}
-.instagram-homepage .pllexslider.overlay li img {
-  width: 260px;
-  height: 260px;
+
+.pllexislider .slides img {
+width: auto !important;
 }
 
 img.alignnone, img.aligncenter, img.alignleft, img.alignright {
   max-width: 100%;
   height: auto;
+}
+
+#home-slider-wrapper .ls-nav #home-slider-nav-ul li a {
+padding: 10px 12px 9px 12px;
+}
+#home-slider-nav-ul li.current a {
+border-top: 3px solid rgb(242, 132, 54);
+padding: 7px 12px 9px 12px;
 }

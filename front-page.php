@@ -5,28 +5,28 @@
 <div class="liquid-slider" id="home-slider">
   
   <div class="slide" id="slide3">
-    <a href="/kings-of-the-court-basketball-showcase" class="full-link"></a>
-    <h2 class="title" style="display:none;">Kings of the Court</h2>
-    <!-- <div class="article right" style="padding-top:90px;">
+    <a href="/services/strategic-communications" class="full-link"></a>
+   <!--  <h2 class="title" style="display:none;">2015 Gymnastics Championships</h2> -->
+    <div class="article right" style="padding-top:90px;">
       <h2 class="title" style="display:none;"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/strategic_communications.png"><span>Strategic Communications</span></h2>
       <h2 class="article-title"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/strategic_communications.png">Strategic<br /> Communications</h2>
-    </div> -->
+    </div>
   </div>
   <div class="slide" id="slide1">
-    <a href="/border-wars" class="full-link"></a>
-    <h2 class="title" style="display:none;">Border Wars</h2>
-    <!-- <div class="article left" style="padding-top:90px;">
+    <a href="/services/event-operations-and-consulting" class="full-link"></a>
+    <!-- <h2 class="title" style="display:none;">Border Wars</h2> -->
+   <div class="article left" style="padding-top:90px;">
       <h2 class="title" style="display:none;"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/event_operations.png"><span>Event Operations and Consulting</span></h2>
       <h2 class="article-title"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/event_operations.png">Event Operations<br /> and Consulting</h2>
-    </div> -->
+    </div>
   </div>
   <div class="slide" id="slide2">
-    <a href="http://www.elevatethestage.com/" target="_blank" class="full-link"></a>
-    <h2 class="title" style="display:none;">Elevate the Stage</h2>
-    <!-- <div class="article left" style="padding-top:90px;">
+    <a href="/sponsorship-sales-and-activation" class="full-link"></a>
+   <!-- <h2 class="title" style="display:none;">Elevate the Stage</h2> -->
+  <div class="article right" style="padding-top:90px;">
       <h2 class="title" style="display:none;"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/event_consulting.png"><span>Sponsorship Sales and Activation</span></h2>
       <h2 class="article-title"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/event_consulting.png">Sponsorship <br />Sales and Activation</h2>
-    </div> -->
+    </div>
   </div>
 
 

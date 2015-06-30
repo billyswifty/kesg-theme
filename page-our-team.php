@@ -16,6 +16,9 @@
   global $post;
   $myposts = get_posts(array(
   'numberposts' => 12,
+  'orderby' => 'meta_value_num',
+  'meta_key' => 'sort_order',
+  'order' => 'ASC',
   'post_type' => 'staff'
 ));
   foreach($myposts as $post) :
@@ -25,7 +28,7 @@
 <div class="staff-member slide" id="slide1" data-sort="<? the_field("sort_order", $post_id); ?>">
     <div class="constrain">
       <div class="title">
-        <img src="<? the_field("photo", $post_id); ?>" alt="<? the_field("staff-name", $post_id); ?>">
+        <img src="<? the_field("photo", $post_id); ?>" alt="<? the_field("staff-name", $post_id); ?>" width="60" height="60">
       </div>
       <h1><? the_field("staff-name", $post_id); ?></h1>
       <h3><? the_field("staff-title", $post_id); ?></h3>
